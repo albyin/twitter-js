@@ -10,3 +10,13 @@ app.get("/", function(req, res){
 
 	res.send("Hello, world!");
 });
+
+app.get("/news", function(req, res){
+
+	res.send("Hello from news!");
+});
+
+app.get("/updated", function(req, res){
+
+	res.send("Hello from updated!");
+});
