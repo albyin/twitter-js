@@ -3,7 +3,8 @@ var _ = require('underscore');
 var data = [];
 
 var add = function (name, text) {
-  data.push({ name: name, text: text });
+  var id = Math.floor(Math.random() * 100).toString();//randomly generate id number
+  data.push({ id: id, name: name, text: text });
 };
 
 var list = function () {
