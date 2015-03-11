@@ -13,7 +13,7 @@ app.get("/", function(req, res){
 
 app.get("/news", function(req, res){
 
-	res.send("Hello from news!");
+	res.send("Hello from news! david addition");
 });
 
 app.get("/updated", function(req, res){
